@@ -9,15 +9,8 @@ app/frontend/node_modules/
 app/frontend/build/
 app/frontend/dist/
 
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb
-
 # Research / experiments
-Modal/
-
-# Dataset
-datasets/
+Modal/*pth
 
 # Model weights
 *.pth
