@@ -1,0 +1,33 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# React
+app/frontend/node_modules/
+app/frontend/build/
+app/frontend/dist/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Research / experiments
+Modal/
+
+# Dataset
+datasets/
+
+# Model weights
+*.pth
+*.pt
+*.h5
+*.keras
+
+# Environment
+.env
+*.log
+
+# VS Code
+app/.vscode/

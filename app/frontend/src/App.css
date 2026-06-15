@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #e0f2fe, #f0fdf4);
+  min-height: 100vh;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.navbar {
+  background: #0f172a;
+  color: white;
+  padding: 16px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  margin: 0;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-size: 15px;
+  opacity: 0.85;
+}
+
+.nav-links li:hover {
+  opacity: 1;
+  color: #38bdf8;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.card {
+  background: white;
+  width: 420px;
+  padding: 35px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #0f172a;
+}
+
+.upload-box {
+  border: 2px dashed #94a3b8;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  cursor: pointer;
+  color: #475569;
+  transition: 0.3s;
+}
+
+.upload-box:hover {
+  border-color: #2563eb;
+  color: #2563eb;
+}
+
+.upload-box input {
+  display: none;
+}
+
+.preview-image {
+  width: 100%;
+  max-height: 220px;
+  object-fit: contain;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 15px;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(37,99,235,0.4);
+}
+
+.result {
+  margin-top: 25px;
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.result p {
+  margin: 6px 0;
+  color: #0f172a;
+}
+
+.confidence-container {
+  margin-top: 10px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background: #e5e7eb;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #22c55e, #16a34a);
+  transition: width 0.4s ease;
+}
+
+.upload-box {
+  border: 2px dashed #94a3b8;
+  border-radius: 14px;
+  padding: 35px 20px;
+  text-align: center;
+  cursor: pointer;
+  color: #475569;
+  transition: all 0.3s ease;
+  margin-bottom: 25px;   /* ✅ spacing fixed */
+  position: relative;
+}
+
+.upload-box p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.upload-box span {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.upload-box input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.upload-box:hover {
+  border-color: #2563eb;
+  color: #2563eb;
+}
+
+.upload-box.active {
+  border-color: #22c55e;
+  background: #f0fdf4;
+  color: #16a34a;
+}
+
+.predict-btn {
+  margin-top: 10px;     /* ✅ spacing from upload box */
+}
