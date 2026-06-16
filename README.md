@@ -82,6 +82,7 @@ pip install -r requirements.txt
    ```
 
 3. Open your browser and navigate to `http://localhost:3000`
+<img width="1365" height="645" alt="image" src="https://github.com/user-attachments/assets/15e8b207-e45a-41c8-9968-b54fbb9a6538" />
 
 ### Using the Model for Predictions
 
