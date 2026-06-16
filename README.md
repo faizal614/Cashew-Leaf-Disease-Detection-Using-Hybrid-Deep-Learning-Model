@@ -196,7 +196,7 @@ If you use this project in your research, please cite:
 
 ## Contact & Support
 
-- 📧 Email: [Your email]
+- 📧 Email: [Your email](mailto:mohammedfaizalh20@gmail.com)
 - 🐙 GitHub: [@faizal614](https://github.com/faizal614)
 - 💬 Issues: [GitHub Issues](https://github.com/faizal614/Cashew-Leaf-Disease-Detection-Using-Hybrid-Deep-Learning-Model/issues)
 
